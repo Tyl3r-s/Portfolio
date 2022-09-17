@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import Nav from './pages/Nav';
-import Landing from './pages/Landing';
+import NavTabs from './NavTabs';
+import Home from './pages/Home';
 import About from './pages/About';
 import Work from './pages/Work';
-import ContactForm from './pages/Contact';
+import Contact from './pages/Contact';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Landing');
+  const [currentPage, setCurrentPage] = useState('Home');
 
   const renderPage = () => {
-    if (currentPage === 'Landing') {
-      return <Landing />;
+    if (currentPage === 'Home') {
+      return <Home />;
     }
     if (currentPage === 'About') {
       return <About />;
@@ -18,14 +18,16 @@ export default function PortfolioContainer() {
     if (currentPage === 'Work') {
       return <Work />;
     }
-    return <ContactForm />;
+    return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* // TODO: Add a comment describing what we are passing as props */}
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
     </div>
   );

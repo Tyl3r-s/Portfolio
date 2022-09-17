@@ -1,14 +1,15 @@
 import React from 'react';
+import portrait from '../../assets/about/Me.jpg';
 
-function About() {
+export default function About() {
   return (
-    <section class="about-me-section" id="about-me-section">
-      <div class="leftCol">
-        <div class="abtTitle">
-          <h1 class="about-title">Hello World!</h1>
+    <section className="about-me-section" id="about-me-section">
+      <div className="leftCol">
+        <div className="abtTitle">
+          <h1 className="about-title">Hello World!</h1>
         </div>
-        <div class="abtText">
-          <p class="about-text">
+        <div className="abtText">
+          <p className="about-text">
             Technology has always been a huge fascination of mine, and jumping into code
             is one of the best decisions I've made in life. I have found a passion for creating succinct and intuitive user
             experiences, and I take pride in building efficient and organized back-end infrastructure. I truly love the
@@ -16,13 +17,11 @@ function About() {
           </p>
         </div>
       </div>
-      <div class="rightCol">
-        <div class="blur"></div>
-        <img src="" alt="" class="me" />
+      <div className="rightCol">
+        <div className="blur"></div>
+        <img src={portrait} alt="" className="me" />
       </div>
 
     </section>
   );
 }
-
-export default About;
