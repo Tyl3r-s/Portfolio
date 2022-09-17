@@ -1,61 +1,41 @@
 import React from 'react';
+import { Card } from '../Card';
+import img1 from '../../assets/projects/1.png';
+import img2 from '../../assets/projects/2.png';
+import img3 from '../../assets/projects/3.png';
+import img4 from '../../assets/projects/4.png';
+
+const projectArr = [
+  {
+    "img": img1,
+    "title": "Humble",
+    "description": "blah blah blah"
+  },
+  {
+    "img": img2,
+    "title": "Weather App",
+    "description": "aergreagrg"
+  },
+  {
+    "img": img3,
+    "title": "Work Day Scheduler",
+    "description": "weragwegwgg"
+  },
+  {
+    "img": img4,
+    "title": "Code Quiz",
+    "description": "weragwegwgg"
+  }
+]
 
 export default function Work() {
   return (
-<section className="projects" id="projects">
-
-<div className="card">
-  <img src="./assets/Images/humble.png" className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Humble</h5>
-    <p className="card-text">Humble is similar to Instagram in that you create image posts, with commenting and voting
-      available to users.</p>
-    <section className="links">
-      <button className="btn btn-primary">Visit Page</button>
-      <button className="btn btn-primary">Visit Repo</button>
+    <section className="projects" id="projects">
+      {projectArr.map(x => {
+        return (
+          <Card img={x.img} title={x.title} desc={x.description} />
+        )
+      })}
     </section>
-  </div>
-</div>
-
-<div className="card">
-  <img src="./assets/Images/humble.png" className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Humble</h5>
-    <p className="card-text">Humble is similar to Instagram in that you create image posts, with commenting and voting
-      available to users.</p>
-    <section className="links">
-      <button className="btn btn-primary">Visit Page</button>
-      <button className="btn btn-primary">Visit Repo</button>
-    </section>
-  </div>
-</div>
-
-<div className="card">
-  <img src="./assets/Images/humble.png" className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Humble</h5>
-    <p className="card-text">Humble is similar to Instagram in that you create image posts, with commenting and voting
-      available to users.</p>
-    <section className="links">
-      <button className="btn btn-primary">Visit Page</button>
-      <button className="btn btn-primary">Visit Repo</button>
-    </section>
-  </div>
-</div>
-
-<div className="card">
-  <img src="./assets/Images/humble.png" className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Humble</h5>
-    <p className="card-text">Humble is similar to Instagram in that you create image posts, with commenting and voting
-      available to users.</p>
-    <section className="links">
-      <button className="btn btn-primary">Visit Page</button>
-      <button className="btn btn-primary">Visit Repo</button>
-    </section>
-  </div>
-</div>
-
-</section>
   );
 }
