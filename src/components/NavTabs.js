@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaHome} from 'react-icons/fa';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -10,7 +11,7 @@ function NavTabs({ currentPage, handlePageChange }) {
 
           className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          <FaHome />
         </a>
       </li>
       <li className="nav-item">
@@ -41,6 +42,16 @@ function NavTabs({ currentPage, handlePageChange }) {
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
         </a>
       </li>
     </ul>

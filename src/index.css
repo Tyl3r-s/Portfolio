@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
 :root {
     --primary-color: white;
     --secondary-color: black;
@@ -90,6 +92,9 @@ header nav ul li a:active {
 /* hero section */
 
 .hero {
+    background: linear-gradient(rgba(250, 250, 250, 0.3),
+            rgba(0, 0, 0, 0.8)),
+        url('./assets/contact/contact.jpeg');
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -335,11 +340,10 @@ header nav ul li a:active {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
     list-style: none;
     color: var(--primary-color);
-    height: 60px;
-    width: 70vw;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .contact-section a {
@@ -361,10 +365,14 @@ header nav ul li a:active {
     transition: 0s;
 }
 
-.hero p {
+.footerClass {
     color: white;
     text-align: center;
     background-color: rgb(8, 7, 10);
+}
+
+.footerClass p {
+    margin-top: 1vh;
 }
 
 /* media query */
