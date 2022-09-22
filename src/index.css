@@ -35,10 +35,6 @@ header {
     height: 4.5vh;
     min-height: 40px;
     background-color: #1f2833;
-    /* 
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%; */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -96,11 +92,12 @@ header nav ul li a:active {
             rgba(0, 0, 0, 0.8)),
         url('./assets/contact/contact.jpeg');
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     position: relative;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 .content-area {
@@ -129,7 +126,7 @@ header nav ul li a:active {
             rgba(0, 0, 0, 0.7)),
         url('./assets/landing-page/jake-hills-mI02K_LxlfU-unsplash.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
 
 .landing-container {
@@ -195,7 +192,7 @@ header nav ul li a:active {
 /* container div */
 .about-me-section {
     display: flex;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -267,7 +264,7 @@ header nav ul li a:active {
 /* right side about me div */
 .rightCol {
     background-image: url(./assets/about/Me.jpg);
-    height: 100vh;
+    height: 90vh;
     width: 40vw;
     background-position: center;
     background-size: cover;
@@ -296,7 +293,7 @@ header nav ul li a:active {
 /* my work/projects section */
 
 .projects {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -308,7 +305,7 @@ header nav ul li a:active {
 }
 
 .card {
-    margin-top: 35px;
+    margin-top: 1vh;
     height: 70vh;
     width: 20vw;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -366,6 +363,7 @@ header nav ul li a:active {
 }
 
 .footerClass {
+    height: 6vh;
     color: white;
     text-align: center;
     background-color: rgb(8, 7, 10);
@@ -373,6 +371,12 @@ header nav ul li a:active {
 
 .footerClass p {
     margin-top: 1vh;
+}
+
+/* resume stuff */
+
+.skills-n-stuff {
+    height: 90vh;
 }
 
 /* media query */

@@ -1,4 +1,3 @@
-import { faBugSlash } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import { ResumeSection } from '../ResumeSections';
 
@@ -25,12 +24,12 @@ export default function Resume() {
             "data": "Git, Web API, Third-Party API, RESTful API, Sequelize, Mongoose, Webpack"
         },
         {
-            "title": "Architecture",
-            "data": "Model-View-Controller, Object-Relational-Mapping, Test Driven Deployment"
+            "title": "Principles",
+            "data": "Model-View-Controller, Object-Relational-Mapping, Test Driven Development, Separation of Concerns, DRY, YAGNI, Object Oriented Programming, Documentation"
         }
     ]
     return (
-        <div>
+        <div className="skills-n-stuff">
             <div>
                 <h3>Tyler Scott</h3>
                 <p>Full Stack Web Developer</p>
