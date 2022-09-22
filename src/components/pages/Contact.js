@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
-import { capitalizeFirstLetter} from "../../utils/helpers";
+import { capitalizeFirstLetter } from "../../utils/helpers";
 
 
 // each contact will have a name email subject and message
@@ -46,86 +46,35 @@ export default function Contact() {
 
   return (
     <section className="hero contact-section">
-      <div>
-        <h2>
-          Contact Me
-        </h2>
-        <form
-          action="#"
-          className="space-y-8"
-          id="contact-form"
-          onSubmit={handleSubmit}
-        >
-          <div>
-            <label
-              htmlFor="Name"
-            >
-              Name
-            </label>
-            <input
-              type="text"
-              name="name"
-              placeholder="enter name"
-              required
-              onBlur={handleChange}
-            ></input>
-          </div>
-          <div>
-            <label
-              htmlFor="email"
-            >
-              Email
-            </label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="youremail@email.com"
-              required
-              onBlur={handleChange}
-            ></input>
-          </div>
-          <div>
-            <label
-              htmlFor="subject"
-            >
-              Subject
-            </label>
-            <input
-              type="text"
-              name="subject"
-              id="subject"
-              placeholder="Subject"
-              required
-              onBlur={handleChange}
-            ></input>
-          </div>
-          <div className="sm:col-span-2">
-            <label
-              htmlFor="message"
-            >
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows="6"
-              placeholder="Let's work together!"
-              required
-              onBlur={handleChange}
-            ></textarea>
-          </div>
-          <button
-            type="submit"
-          >
-            Send
-          </button> <span>
-          <h2>
-          {errorMessage}
-        </h2>
+      <form action="#" className="contact-form mt-5" id="contact-form" onSubmit={handleSubmit}>
+
+        <div class="form-group">
+          <label htmlFor="name" for="exampleInputEmail1"></label>
+          <input type="name" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name" required onBlur={handleChange} />
+        </div>
+
+        <div class="form-group">
+          <label htmlFor="email" for="exampleInputEmail1"></label>
+          <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required onBlur={handleChange} />
+        </div>
+
+        <div class="form-group">
+          <label htmlFor="Subject" for="exampleInputEmail1"></label>
+          <input type="subject" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="subject" required onBlur={handleChange} />
+        </div>
+
+        <div class="form-group">
+          <label htmlFor="message" for="exampleFormControlTextarea1"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Lets work together!" required onBlur={handleChange}></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary margin mt-3">Send</button>
+
+        <span class="mt-3">
+          <h2> {errorMessage} </h2>
         </span>
-        </form>
-      </div>
+
+      </form>
     </section>
   );
 };

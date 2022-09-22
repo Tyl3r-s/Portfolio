@@ -306,6 +306,15 @@ header nav ul li a:active {
     font-size: 20px;
 }
 
+.contact-form {
+    height: 80vh;
+    width: 40vw;
+}
+
+.contact-form form {
+    width: 50vw;
+}
+
 .contact-section a {
     color: var(--primary-color);
     text-decoration: none;
