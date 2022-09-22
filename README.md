@@ -9,6 +9,7 @@ This portfolio is meant to showcase my skills and ability via
 * Javascript
 * Node
 * React
+* Bootstrap
 
 ## Website
 https://tyl3r-s.github.io/React-SPA-Portfolio/
