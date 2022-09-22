@@ -1,42 +1,22 @@
-### Developer Portfolio 
-### User Story
+# Tyler Scott's Project Portfolio
 
-As a Web Developer, I want a portfolio that will showcase my skills and achievements/projects. I want a website that features the following: An About me page, a Projects page, a Skills Page, and a contact me form. This should be a Single web page application rendering components as they are requested.
+## Purpose
+This portfolio is meant to showcase my skills and ability via 
 
-### Features
-* Single page application 
-* Navigation
-* About, Contact, Projects, Resume 
-* Regex validation
+## Built With
+* HTML
+* CSS
+* Javascript
+* Node
+* React
 
-### badges
-![HTML](https://img.shields.io/badge/HTML-License-blue)
-![React.js](https://img.shields.io/badge/React.js-License-yellowgreen)
-![JavaScript](https://img.shields.io/badge/JavaScript-License-lightblue)
-![CSS](https://img.shields.io/badge/CSS-License-lightgrey)
+## Website
+https://tyl3r-s.github.io/React-SPA-Portfolio/
 
-## Table of Contents
+## Github Repo
+https://github.com/Tyl3r-s/React-SPA-Portfolio/
 
-- [installation](#installation)
-- [contribution guidelines](#contribution)
-- [License](#license)
-- [Questions](#questions)
+## Screenshots
 
-### Installation
-Please clone the github repo here :
-https://github.com/Tyl3r-s/React-SPA-Portfolio
-
-#### Install Dependencies
-Run npm install to install the dependencies
-
-#### Run the program
-From the root folder, run npm start 
-
-
-### Contribution Guidelines
-Current contributers:
-Tyler Scott : https://github.com/Tyl3r-s <br />
-
-### Questions
-    email address : Tyl3r.s@outlook.com
-### Images
+![react porfolio](https://user-images.githubusercontent.com/103789071/191660417-0c92f180-cb34-46f2-a680-5ee753c80491.png)
+![react portfolio 2](https://user-images.githubusercontent.com/103789071/191660421-899b28f1-5e87-43ab-b7c1-fc6c060bdbe9.png)
