@@ -18,7 +18,6 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
 }
 
 a {
@@ -270,8 +269,8 @@ header nav ul li a:active {
 .card {
     margin-top: 1vh;
     height: 70vh;
-    width: 20vw;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .card img {
@@ -289,9 +288,20 @@ header nav ul li a:active {
     justify-content: space-around;
 }
 
-.card a {
-    width: 45%;
-    height: 40px;
+.cardBtn {
+    background-color: #00ffee;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cardBtn:hover {
+    box-shadow: rgba(0, 0, 0, 0.0) 1.95px 1.95px 2.6px;
+    transition: 0.2s ease-in-out;
+}
+
+.cardBtn:active {
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
 /* contact me/footer section */

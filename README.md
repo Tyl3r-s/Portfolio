@@ -1,7 +1,7 @@
 # Tyler Scott's Project Portfolio
 
 ## Purpose
-This portfolio is meant to showcase my skills and ability via 
+This portfolio is meant to showcase my skills and ability via
 
 ## Built With
 * HTML
