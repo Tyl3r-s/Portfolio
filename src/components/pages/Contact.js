@@ -45,7 +45,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="hero contact-section">
+    <section className="hero">
       <form action="#" className="contact-form mt-5" id="contact-form" onSubmit={handleSubmit}>
 
         <div class="form-group">
@@ -59,16 +59,11 @@ export default function Contact() {
         </div>
 
         <div class="form-group">
-          <label htmlFor="Subject" for="exampleInputEmail1"></label>
-          <input type="subject" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="subject" required onBlur={handleChange} />
-        </div>
-
-        <div class="form-group">
           <label htmlFor="message" for="exampleFormControlTextarea1"></label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Lets work together!" required onBlur={handleChange}></textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary margin mt-3">Send</button>
+        <button type="submit" className="btn btn-primary margin mt-3 contactBtn">Send</button>
 
         <span class="mt-3">
           <h2> {errorMessage} </h2>
