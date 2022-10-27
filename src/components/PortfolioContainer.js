@@ -12,7 +12,7 @@ export default function PortfolioContainer() {
 
   const renderPage = () => {
     if (currentPage === 'Home') {
-      return <Home />;
+      return <Home currentPage={currentPage} handlePageChange={handlePageChange}/>;
     }
     if (currentPage === 'About') {
       return <About />;
@@ -26,15 +26,27 @@ export default function PortfolioContainer() {
     return <Resume />
   };
 
+  const renderNav = () => {
+    if (currentPage !== 'Home') {
+      return <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+    }
+  }
+
+  const renderFooter = () => {
+    if (currentPage !== 'Home') {
+      return <Footer />
+    }
+  }
+
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderNav()}
       <div className="portfolioContainer">
       {renderPage()}
       </div>
-      <Footer />
+      {renderFooter()}
     </div>
   );
 }

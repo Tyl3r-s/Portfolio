@@ -138,7 +138,7 @@ header nav ul li a:active {
 
 .landing {
     display: grid;
-    height: 88vh;
+    height: 100vh;
     background:
         linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.7)),
@@ -174,6 +174,13 @@ header nav ul li a:active {
 .landing-subtitle span {
     color: #00ffee;
     letter-spacing: 6px;
+}
+
+.landingBtns {
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    margin-top: 15vh;
 }
 
 .landing-title a {
@@ -413,5 +420,10 @@ header nav ul li a:active {
         overflow: scroll;
     }
 
-    ;
+    .landingBtns {
+        display: grid;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
