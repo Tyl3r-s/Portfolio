@@ -1,28 +1,21 @@
 {
   "files": {
-    "main.css": "/React-SPA-Portfolio/static/css/main.69c328a2.chunk.css",
-    "main.js": "/React-SPA-Portfolio/static/js/main.b914bdfa.chunk.js",
-    "main.js.map": "/React-SPA-Portfolio/static/js/main.b914bdfa.chunk.js.map",
-    "runtime-main.js": "/React-SPA-Portfolio/static/js/runtime-main.7609ac06.js",
-    "runtime-main.js.map": "/React-SPA-Portfolio/static/js/runtime-main.7609ac06.js.map",
-    "static/css/2.7cf1c5b2.chunk.css": "/React-SPA-Portfolio/static/css/2.7cf1c5b2.chunk.css",
-    "static/js/2.9dc8dddc.chunk.js": "/React-SPA-Portfolio/static/js/2.9dc8dddc.chunk.js",
-    "static/js/2.9dc8dddc.chunk.js.map": "/React-SPA-Portfolio/static/js/2.9dc8dddc.chunk.js.map",
+    "main.css": "/React-SPA-Portfolio/static/css/main.3739034e.css",
+    "main.js": "/React-SPA-Portfolio/static/js/main.cadf9b38.js",
+    "static/media/contact.jpeg": "/React-SPA-Portfolio/static/media/contact.8274366fe4441b31e004.jpeg",
+    "static/media/5.png": "/React-SPA-Portfolio/static/media/5.9170f1400ff1edcc6de2.png",
+    "static/media/jake-hills-mI02K_LxlfU-unsplash.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash.960e5dbc9b12203a4649.jpg",
+    "static/media/1.png": "/React-SPA-Portfolio/static/media/1.7a4c5c34372af3bec963.png",
+    "static/media/2.png": "/React-SPA-Portfolio/static/media/2.55444ace3035f61eb83d.png",
+    "static/media/Tyler_Scott_Resume.pdf": "/React-SPA-Portfolio/static/media/Tyler_Scott_Resume.e1ad8f2d4479331bb195.pdf",
+    "static/media/6.png": "/React-SPA-Portfolio/static/media/6.7a469ef5923a494cd5f6.png",
+    "static/media/Me.jpg": "/React-SPA-Portfolio/static/media/Me.abb6406c0cebc9bf433f.jpg",
     "index.html": "/React-SPA-Portfolio/index.html",
-    "static/css/2.7cf1c5b2.chunk.css.map": "/React-SPA-Portfolio/static/css/2.7cf1c5b2.chunk.css.map",
-    "static/css/main.69c328a2.chunk.css.map": "/React-SPA-Portfolio/static/css/main.69c328a2.chunk.css.map",
-    "static/js/2.9dc8dddc.chunk.js.LICENSE.txt": "/React-SPA-Portfolio/static/js/2.9dc8dddc.chunk.js.LICENSE.txt",
-    "static/media/1.7a4c5c34.png": "/React-SPA-Portfolio/static/media/1.7a4c5c34.png",
-    "static/media/2.55444ace.png": "/React-SPA-Portfolio/static/media/2.55444ace.png",
-    "static/media/3.4352ed80.png": "/React-SPA-Portfolio/static/media/3.4352ed80.png",
-    "static/media/4.bb507c1f.png": "/React-SPA-Portfolio/static/media/4.bb507c1f.png",
-    "static/media/index.css": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash.960e5dbc.jpg"
+    "main.3739034e.css.map": "/React-SPA-Portfolio/static/css/main.3739034e.css.map",
+    "main.cadf9b38.js.map": "/React-SPA-Portfolio/static/js/main.cadf9b38.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.7609ac06.js",
-    "static/css/2.7cf1c5b2.chunk.css",
-    "static/js/2.9dc8dddc.chunk.js",
-    "static/css/main.69c328a2.chunk.css",
-    "static/js/main.b914bdfa.chunk.js"
+    "static/css/main.3739034e.css",
+    "static/js/main.cadf9b38.js"
   ]
 }
