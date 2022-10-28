@@ -12,7 +12,7 @@ This portfolio is meant to showcase my skills and ability via
 * Bootstrap
 
 ## Website
-https://tyl3r-s.github.io/Portfolio/
+https://tyl3r-s.github.io/React-SPA-Portfolio/
 
 ## Github Repo
 https://github.com/Tyl3r-s/React-SPA-Portfolio/
