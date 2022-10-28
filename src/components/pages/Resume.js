@@ -3,9 +3,11 @@ import { ResumeSection } from '../ResumeSections';
 import workResume from "../../assets/resume/Tyler_Scott_Resume.pdf";
 
 const Resume = () => {
-  return (        <>
-<object width="100%" height="800" data={workResume} type="application/pdf" aria-label="resume"/>        
-</>    )}
+    return (<>
+        <object width="100%" height="800" data={workResume} type="application/pdf" aria-label="resume" />
+    </>)
+}
+
 export default Resume;
 
 // export default function Resume() {

@@ -47,6 +47,8 @@ export default function Contact() {
   return (
     <section className="hero">
       <form action="#" className="contact-form mt-5" id="contact-form" onSubmit={handleSubmit}>
+        
+      <h4 className="contactTitle">Have a question or want to work with me?</h4>
 
         <div class="form-group">
           <label htmlFor="name" for="exampleInputEmail1"></label>

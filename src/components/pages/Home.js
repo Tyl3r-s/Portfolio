@@ -10,7 +10,7 @@ export default function Home({ currentPage, handlePageChange }) {
           <h1>
             Tyler Scott
           </h1>
-          <p className="landing-subtitle">.designer{ } &<span>&</span> <span>('coder');</span></p>
+          <p className="landing-subtitle">.design &<span>&</span> <span>code;</span></p>
           <div className="landingBtns">
           <a
           href="#about"
@@ -26,7 +26,7 @@ export default function Home({ currentPage, handlePageChange }) {
 
           className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          Projects
         </a>
         <a
           href="#about"
