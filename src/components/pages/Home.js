@@ -44,6 +44,14 @@ export default function Home({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
+        <a
+          href="#about"
+          onClick={() => handlePageChange('Skills')}
+
+          className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
+        >
+          Skills
+        </a>
         </div>
         </div>
 

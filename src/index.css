@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--tertiary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
+
 :root {
-    --primary-color: white;
-    --secondary-color: black;
+    --primary-color: #5fbfbf;
+    --secondary-color: #6cd8d8dc;
+    --tertiary-color: #6cd8d88b;
 }
 
 * {
@@ -108,7 +129,7 @@ header nav ul li a:active {
     position: relative;
     background-attachment: fixed;
     overflow: hidden;
-    height: 88vh;
+    height: 94vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -243,14 +264,14 @@ header nav ul li a:active {
 
 /* left side about me div */
 .leftCol {
-    height: 88vh;
+    height: 94vh;
     width: 60%;
 }
 
 /* right side about me div */
 .rightCol {
     background-image: url(./assets/about/Me.jpg);
-    height: 88vh;
+    height: 94vh;
     width: 40%;
     background-position: center;
     background-size: cover;
@@ -287,24 +308,71 @@ header nav ul li a:active {
     flex-wrap: wrap;
     background:
         linear-gradient(rgba(0, 0, 0, 0.01),
-            rgba(0, 0, 0, 0.1));
+            rgba(0, 0, 0, 0.04));
+}
+
+.workContainer {
+    width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workIntro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
+    margin: 10vh;
+}
+
+.workPageTitle {
+    font-weight: 300;
+}
+
+.workPageDesc {
+    font-weight: 300;
 }
 
 .card {
-    margin-top: 1vh;
-    height: 70vh;
-    width: 300px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-    margin-bottom: 1vh;
+    margin: 5%;
+    height: 90vh;
+    width: 40%;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(75, 75, 75, 0.04) 0px 3px 5px;
+}
+
+.card-title {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 4vh;
+    font-weight: 400;
 }
 
 .card img {
-    height: 225px;
+    height: 40%;
+    width: 90%;
     object-fit: cover;
+    border-radius: 0px;
+    align-self: center;
 }
 
 .card-body {
     display: grid;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.projectDetails {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vh;
+    color: rgb(77, 77, 77)
 }
 
 .links {
@@ -314,19 +382,26 @@ header nav ul li a:active {
 }
 
 .cardBtn {
-    background-color: #00ffee;
+    background-color: var(--secondary-color);
+    color: white;
     padding: 5px;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .cardBtn:hover {
+    background-color: var(--secondary-color);
     box-shadow: rgba(0, 0, 0, 0.0) 1.95px 1.95px 2.6px;
     transition: 0.2s ease-in-out;
+    color: #f7f7f7;
 }
 
 .cardBtn:active {
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    background-color: var(--primary-color);
+    box-shadow: rgb(129, 129, 129, 0.3) 3px 3px 6px 0px inset, rgba(129, 129, 129, 0.3) -3px -3px 6px 1px inset;
+    transition: 0s;
 }
 
 /* contact me */
@@ -334,27 +409,33 @@ header nav ul li a:active {
 .contactTitle {
     color: white;
     margin-top: 5vh;
+    border-radius: 0px;
+}
+
+.form-group {
+    border-radius: 0px;
 }
 
 .contact-form {
     height: 88vh;
     width: 40vw;
+    border-radius: 0px;
 }
 
 .contact-form form {
     width: 50vw;
+    border-radius: 0px;
 }
 
 .contactBtn {
     width: 100%;
+    border-radius: 0px;
 }
 
 
 .contact-section {
-    height: 6vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-gap: 2vh;
     text-align: center;
     list-style: none;
     color: var(--primary-color);
@@ -364,46 +445,138 @@ header nav ul li a:active {
 .contact-section a {
     color: var(--primary-color);
     text-decoration: none;
-    height: 6vh;
+    font-size: 2vh;
+    margin-top: 2px;
 }
 
 .contact-section p {
-    height: 6vh;
+    font-size: 10px;
 }
 
 .contact-section a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 5px;
-    text-shadow: none;
-    transition: 0.5s;
+    color: white;
+    transition: 0.2s;
 }
 
 .contact-section a:active {
-    opacity: 0.4;
+    opacity: 0.8;
     transition: 0s;
 }
 
 .footerClass {
-    height: 6vh;
+    width: 100%;
     color: white;
     text-align: center;
-    background-color: rgb(8, 7, 10);
+    background-color: rgb(53, 53, 53);
+}
+
+.footerContact {
+    display: grid;
+    grid-gap: 1vh;
+}
+
+.copyright {
+    color: var(--primary-color);
+    font-size: 10px;
 }
 
 /* .footerClass p {
     margin-top: 1vh;
 } */
 
-/* resume stuff */
+/* resume and skill stuff */
 
-/* .skills-n-stuff {
-    height: 90vh;
-} */
+.resumeContainer {
+    right: 0px;
+    left: auto;
+}
+
+.resume {
+    width: 867px;
+    height: 94vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resumeSection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.resumeSection a {
+    width: 867px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.skillSection {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    margin: 2vw;
+    width: 5vw;
+    height: 5vw;
+    min-width: 50px;
+}
+
+.skill h5 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.skill-intro {
+    width: 40vw;
+    min-width: 350px;
+    align-self: center;
+    margin: 1vw;
+}
+
+.skill-intro h4 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-bottom: 2vw;
+}
+
+.skill-intro p {
+    font-size: 20px;
+}
+
+.skill-icons {
+    height: 94vh;
+    width: 55vw;
+    min-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* media query */
 
 @media screen and (max-width: 980px) {
+
+    .landing {
+        display: grid;
+        height: 100vh;
+        background:
+            linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.7)),
+            url('./assets/landing-page/jake-hills-mI02K_LxlfU-unsplash2.jpg');
+        background-size: cover;
+    }
+
+    .skill-icons {
+        width: 100vw;
+    }
+
+    .skillSection {
+        margin-left: 5px;
+    }
+
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -413,9 +586,40 @@ header nav ul li a:active {
     body {
         overflow: visible;
     }
+
+    .workContainer {
+        width: 90vw;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .workIntro {
+        width: 80vw;
+    }
+
+    .skill h5 {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .resumeSection a {
+        padding-right: 5px;
+    }
 }
 
 @media screen and (max-width: 667px) {
+
+    .landing {
+        display: grid;
+        height: 100vh;
+        background:
+            linear-gradient(rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.7)),
+            url('./assets/landing-page/jake-hills-mI02K_LxlfU-unsplash3.jpg');
+        background-size: cover;
+    }
 
     .about-me-text p {
         height: 100%;
@@ -431,4 +635,25 @@ header nav ul li a:active {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .card {
+        width: 80vw;
+    }
+
+    .skill h5 {
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    .skill-intro {
+        min-width: 270px;
+    }
+
+    .skill-icons {
+        min-width: 270px;
+    }
+
 }
