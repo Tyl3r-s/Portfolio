@@ -547,6 +547,14 @@ header nav ul li a:active {
     font-size: 20px;
 }
 
+.downloadresume {
+    color: #78b7e0;
+}
+
+.viewresume {
+    color: #03c1b4;
+}
+
 .skill-icons {
     height: 94vh;
     width: 55vw;

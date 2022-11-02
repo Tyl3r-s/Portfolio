@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome} from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -36,26 +36,6 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#contact"
-
-          onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
-          href="#resume"
-
-          onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a>
-        </li>
-        <li className="nav-item">
-        <a
           href="#resume"
 
           onClick={() => handlePageChange('Skills')}
@@ -64,6 +44,26 @@ function NavTabs({ currentPage, handlePageChange }) {
           Skills
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+
+          onClick={() => handlePageChange('Contact')}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+      </li>
+      {/* <li className="nav-item">
+        <a
+          href="#resume"
+
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+        </li> */}
     </ul>
   );
 }

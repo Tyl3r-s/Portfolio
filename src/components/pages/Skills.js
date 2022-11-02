@@ -1,5 +1,6 @@
 import React from 'react';
 import { Skill } from '../Skill'
+import workResume from '../../assets/resume/tylerscottresume.pdf'
 
 const skillArray = [
     {
@@ -108,6 +109,13 @@ const skills = () => {
                 <p>
                     Thanks to my experience in UofT's intensive web development course,
                     I'm able to quickly pivot to using new technologies and adopt existing codebases on the fly.
+                    <br />
+                    <br />
+                    click to
+                    <a className="downloadresume" href={workResume} download> download </a> 
+                    or just
+                    <a className="viewresume" href='https://resume.creddle.io/resume/9gs3poo1p3v' target='_blank' download> view </a>
+                    resume
                 </p>
             </div>
             <div className="skill-icons">

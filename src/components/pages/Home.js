@@ -10,7 +10,7 @@ export default function Home({ currentPage, handlePageChange }) {
           <h1>
             Tyler Scott
           </h1>
-          <p className="landing-subtitle">.design &<span>&</span> <span>code;</span></p>
+          <p className="landing-subtitle">.designer &<span>&</span> <span>coder()</span></p>
           <div className="landingBtns">
           <a
           href="#about"
@@ -30,28 +30,28 @@ export default function Home({ currentPage, handlePageChange }) {
         </a>
         <a
           href="#about"
-          onClick={() => handlePageChange('Contact')}
-
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-        <a
-          href="#about"
-          onClick={() => handlePageChange('Resume')}
-
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a>
-        <a
-          href="#about"
           onClick={() => handlePageChange('Skills')}
 
           className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
         >
           Skills
         </a>
+        <a
+          href="#about"
+          onClick={() => handlePageChange('Contact')}
+
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+        </a>
+        {/* <a
+          href="#about"
+          onClick={() => handlePageChange('Resume')}
+
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a> */}
         </div>
         </div>
 
