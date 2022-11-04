@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-SPA-Portfolio/static/css/main.3503ea35.css",
-    "main.js": "/React-SPA-Portfolio/static/js/main.c854614e.js",
+    "main.css": "/React-SPA-Portfolio/static/css/main.1bf1ec53.css",
+    "main.js": "/React-SPA-Portfolio/static/js/main.ebc70a17.js",
     "static/media/5.png": "/React-SPA-Portfolio/static/media/5.9170f1400ff1edcc6de2.png",
     "static/media/jake-hills-mI02K_LxlfU-unsplash.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash.960e5dbc9b12203a4649.jpg",
     "static/media/jake-hills-mI02K_LxlfU-unsplash2.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash2.6cc0520b042447526c3f.jpg",
@@ -13,11 +13,11 @@
     "static/media/Me.jpg": "/React-SPA-Portfolio/static/media/Me.abb6406c0cebc9bf433f.jpg",
     "static/media/Me2.jpg": "/React-SPA-Portfolio/static/media/Me2.1d08715ab68f5c6a9728.jpg",
     "index.html": "/React-SPA-Portfolio/index.html",
-    "main.3503ea35.css.map": "/React-SPA-Portfolio/static/css/main.3503ea35.css.map",
-    "main.c854614e.js.map": "/React-SPA-Portfolio/static/js/main.c854614e.js.map"
+    "main.1bf1ec53.css.map": "/React-SPA-Portfolio/static/css/main.1bf1ec53.css.map",
+    "main.ebc70a17.js.map": "/React-SPA-Portfolio/static/js/main.ebc70a17.js.map"
   },
   "entrypoints": [
-    "static/css/main.3503ea35.css",
-    "static/js/main.c854614e.js"
+    "static/css/main.1bf1ec53.css",
+    "static/js/main.ebc70a17.js"
   ]
 }
