@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/React-SPA-Portfolio/static/css/main.1bf1ec53.css",
-    "main.js": "/React-SPA-Portfolio/static/js/main.ebc70a17.js",
-    "static/media/5.png": "/React-SPA-Portfolio/static/media/5.9170f1400ff1edcc6de2.png",
-    "static/media/jake-hills-mI02K_LxlfU-unsplash.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash.960e5dbc9b12203a4649.jpg",
-    "static/media/jake-hills-mI02K_LxlfU-unsplash2.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash2.6cc0520b042447526c3f.jpg",
-    "static/media/jake-hills-mI02K_LxlfU-unsplash3.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash3.01f224b31b23413a9c41.jpg",
-    "static/media/tylerscottresume.pdf": "/React-SPA-Portfolio/static/media/tylerscottresume.b119bb91d18dc05f54f8.pdf",
-    "static/media/1.png": "/React-SPA-Portfolio/static/media/1.7a4c5c34372af3bec963.png",
-    "static/media/2.png": "/React-SPA-Portfolio/static/media/2.55444ace3035f61eb83d.png",
-    "static/media/6.png": "/React-SPA-Portfolio/static/media/6.7a469ef5923a494cd5f6.png",
-    "static/media/Me.jpg": "/React-SPA-Portfolio/static/media/Me.abb6406c0cebc9bf433f.jpg",
-    "static/media/Me2.jpg": "/React-SPA-Portfolio/static/media/Me2.1d08715ab68f5c6a9728.jpg",
-    "index.html": "/React-SPA-Portfolio/index.html",
-    "main.1bf1ec53.css.map": "/React-SPA-Portfolio/static/css/main.1bf1ec53.css.map",
-    "main.ebc70a17.js.map": "/React-SPA-Portfolio/static/js/main.ebc70a17.js.map"
+    "main.css": "/static/css/main.f8e91f2d.css",
+    "main.js": "/static/js/main.da932704.js",
+    "static/media/5.png": "/static/media/5.9170f1400ff1edcc6de2.png",
+    "static/media/jake-hills-mI02K_LxlfU-unsplash.jpg": "/static/media/jake-hills-mI02K_LxlfU-unsplash.960e5dbc9b12203a4649.jpg",
+    "static/media/jake-hills-mI02K_LxlfU-unsplash2.jpg": "/static/media/jake-hills-mI02K_LxlfU-unsplash2.6cc0520b042447526c3f.jpg",
+    "static/media/jake-hills-mI02K_LxlfU-unsplash3.jpg": "/static/media/jake-hills-mI02K_LxlfU-unsplash3.01f224b31b23413a9c41.jpg",
+    "static/media/1.png": "/static/media/1.7a4c5c34372af3bec963.png",
+    "static/media/2.png": "/static/media/2.55444ace3035f61eb83d.png",
+    "static/media/tylerscottresume.pdf": "/static/media/tylerscottresume.3c6e5bcea9228e732e89.pdf",
+    "static/media/6.png": "/static/media/6.7a469ef5923a494cd5f6.png",
+    "static/media/Me.jpg": "/static/media/Me.abb6406c0cebc9bf433f.jpg",
+    "static/media/Me2.jpg": "/static/media/Me2.1d08715ab68f5c6a9728.jpg",
+    "index.html": "/index.html",
+    "main.f8e91f2d.css.map": "/static/css/main.f8e91f2d.css.map",
+    "main.da932704.js.map": "/static/js/main.da932704.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bf1ec53.css",
-    "static/js/main.ebc70a17.js"
+    "static/css/main.f8e91f2d.css",
+    "static/js/main.da932704.js"
   ]
 }
