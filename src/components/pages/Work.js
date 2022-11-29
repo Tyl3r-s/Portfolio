@@ -45,7 +45,7 @@ export default function Work() {
   return (
     <section className="projects" id="projects">
       <div className="workIntro">
-        <h3 className="workPageTitle">Some of my favourite projects...</h3>
+        <h1 className="workPageTitle">Some of my favourite projects...</h1>
         <h5 className="workPageDesc">I'm always working on something to learn new skills and polish older ones. 
         Here I've showcased some of my favourite solo and group projects I've worked on. 
         Be sure to check out my repo and live sites!

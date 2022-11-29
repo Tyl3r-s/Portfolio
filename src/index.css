@@ -32,6 +32,10 @@
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 html {
     scroll-behavior: smooth;
     max-height: 100vh;
@@ -49,6 +53,96 @@ a {
     display: grid;
 }
 
+/* dropdown menu */
+
+.dropdownDownload {
+    color: #3577a3;
+    font-weight: 500;
+}
+
+.dropdownView {
+    color: #3577a3;
+    font-weight: 500;
+}
+
+.dropdownMenu h5 {
+    align-self: center;
+}
+
+.dropdownMenu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: 500ms ease;
+}
+
+.dropdownMenu.inactive {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: 500ms ease;
+}
+
+.menu-trigger.active {
+    color: #023f3f;
+    transition: 200ms ease-in-out;
+    font-size: 29px;
+}
+
+.Dropdown {
+    z-index: 99999;
+}
+
+.menu-trigger {
+    padding: 2px 5px 2px 5px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 999;
+    color: #278484;
+}
+
+.menu-trigger:hover {
+    font-size: 29px;
+    transition: 200ms ease-in-out;
+}
+
+
+.dropdownMenu {
+    display: grid;
+    align-items: center;
+    position: fixed;
+    top: 75px;
+    left: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 999;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.dropdownMenu ul {
+    margin-top: 4vh;
+}
+
+.dropdownMenu ul li a:hover {
+    color: gray;
+}
+
+.dropdownMenu ul li a:active {
+    color: rgb(68, 68, 68);
+}
+
+.menuBtn {
+    position: absolute;
+    color: black;
+    opacity: 0.5;
+}
+
 /* header section */
 
 header {
@@ -64,6 +158,10 @@ header {
 
 .nav-tabs {
     height: 6vh;
+}
+
+.nav-item a {
+    font-size: 2.5vh;
 }
 
 .nav-link {
@@ -115,21 +213,21 @@ header nav ul li a:active {
 
 .portfolioContainer {
     min-height: 88vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.1));
 }
 
 /* hero section */
 
 .hero {
-    background: linear-gradient(rgba(250, 250, 250, 0.3),
-            rgba(0, 0, 0, 0.8)),
-        url('./assets/contact/contact.jpeg');
     width: 100%;
     background-size: cover;
     background-position: center;
     position: relative;
     background-attachment: fixed;
     overflow: hidden;
-    height: 94vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -234,6 +332,11 @@ header nav ul li a:active {
 
 /* about me section */
 
+.aboutMeResume {
+    text-align: center;
+    position: absolute;
+}
+
 /* container div */
 .about-me-section {
     display: flex;
@@ -245,33 +348,37 @@ header nav ul li a:active {
 }
 
 .about-title {
-    color: rgba(37, 37, 37, 0.605);
-    font-weight: 200;
-    margin-top: 13%;
-    font-size: 50px;
+    margin-top: 15vh;
+    font-weight: 400;
+}
+
+.about-title span {
+    margin-top: 15vh;
+    font-weight: 400;
+    color: rgb(37, 136, 145);
 }
 
 .about-text {
-    color: rgba(250, 130, 2, 0.968);
-    margin-top: 20px;
+    margin-bottom: 20vh;
     margin-left: 6vw;
     font-weight: 300;
     width: 70%;
     letter-spacing: 2px;
-    font-size: 19px;
     line-height: 1.9;
 }
 
 /* left side about me div */
 .leftCol {
-    height: 94vh;
+    min-height: 100vh;
     width: 60%;
+    display: grid;
+    align-items: center;
 }
 
 /* right side about me div */
 .rightCol {
     background-image: url(./assets/about/Me.jpg);
-    height: 94vh;
+    height: 100vh;
     width: 40%;
     background-position: center;
     background-size: cover;
@@ -306,9 +413,6 @@ header nav ul li a:active {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.01),
-            rgba(0, 0, 0, 0.04));
 }
 
 .workContainer {
@@ -331,6 +435,8 @@ header nav ul li a:active {
 
 .workPageDesc {
     font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1.9;
 }
 
 .card {
@@ -389,6 +495,7 @@ header nav ul li a:active {
     text-align: center;
     width: 30%;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
 }
 
 .cardBtn:hover {
@@ -406,10 +513,26 @@ header nav ul li a:active {
 
 /* contact me */
 
+.contactButton {
+    margin-bottom: 5vh;
+}
+
 .contactTitle {
     color: white;
     margin-top: 5vh;
     border-radius: 0px;
+}
+
+.container h3 {
+    margin-top: 15vh;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.form-control {
+    border-radius: 0px;
+    margin: 5vh;
+    width: 80vw;
 }
 
 .form-group {
@@ -493,7 +616,7 @@ header nav ul li a:active {
 
 .resume {
     width: 867px;
-    height: 94vh;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -512,7 +635,7 @@ header nav ul li a:active {
 }
 
 .skillSection {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -525,7 +648,6 @@ header nav ul li a:active {
 }
 
 .skill h5 {
-    font-size: 20px;
     font-weight: 300;
     text-align: center;
 }
@@ -535,37 +657,79 @@ header nav ul li a:active {
     min-width: 350px;
     align-self: center;
     margin: 1vw;
+    margin-left: 3vw;
 }
 
-.skill-intro h4 {
-    font-weight: 400;
-    font-size: 40px;
+.skill-intro h1 {
+    font-weight: 300;
     margin-bottom: 2vw;
 }
 
-.skill-intro p {
-    font-size: 20px;
+.skill-intro h5 {
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1.9;
+    width: 90%;
 }
 
 .downloadresume {
     color: #78b7e0;
+    letter-spacing: 5px;
 }
 
 .viewresume {
     color: #03c1b4;
+    letter-spacing: 5px;
 }
 
 .skill-icons {
-    height: 94vh;
+    height: 100vh;
     width: 55vw;
     min-width: 350px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    justify-content: center;
 }
 
 /* media query */
 
 @media screen and (max-width: 980px) {
+
+    .workPageTitle {
+        width: 90vw;
+    }
+
+    .skill-intro h1 {
+        margin-top: 8vh;
+    }
+
+    .skill-intro {
+        width: 90vw;
+    }
+
+    .skill-intro h5 {
+        width: 100%;
+    }
+
+    .skill-icons {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .me {
+        width: 40vw;
+        height: auto;
+        margin-top: 25vh;
+    }
+
+    .rightCol {
+        background-image: url(./assets/about/Me2.jpg);
+    }
 
     .landing {
         display: grid;
@@ -577,8 +741,9 @@ header nav ul li a:active {
         background-size: cover;
     }
 
-    .skill-icons {
-        width: 100vw;
+    .skill {
+        height: 50px;
+        height: 50px;
     }
 
     .skillSection {
@@ -619,6 +784,95 @@ header nav ul li a:active {
 
 @media screen and (max-width: 667px) {
 
+    .container h3 {
+        margin-top: 8vh;
+        font-weight: 300;
+        font-size: 25px;
+    }
+
+    .menu-trigger {
+        height: 31px;
+        border-radius: 3px;
+        top: 10px;
+        left: auto;
+        right: 10px;
+        font-weight: 500;
+        font-size: 30px;
+        overflow: hidden;
+        cursor: pointer;
+        z-index: 999;
+        color: rgb(6, 87, 101);
+    }
+
+    .dropdownMenu {
+        display: grid;
+        align-items: center;
+        text-align: right;
+        top: 55px;
+        left: auto;
+        right: 10px;
+        background-color: var(--secondary-color);
+        border-radius: 10px;
+        width: 180px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        z-index: 999;
+    }
+
+    .dropdownMenu ul {
+        margin-top: 20px;
+        margin-left: -5px;
+        letter-spacing: 3px;
+        margin-right: 10px;
+    }
+
+    .abtTitle {
+        z-index: 998;
+        color: white;
+    }
+
+    .abtText {
+        height: 550px;
+        z-index: 998;
+        color: white;
+        width: 90vw;
+    }
+
+    .about-text {
+        margin-left: 6vw;
+        font-weight: 300;
+        width: 90%;
+        letter-spacing: 2px;
+        line-height: 1.7;
+    }
+
+    .leftCol {
+        width: 100vw;
+    }
+
+    .me {
+        display: none;
+        /* width: 70vw;
+        height: auto;
+        margin-left: 0px;
+        position: absolute;
+        left: -80px;
+        margin-top: 0%;
+        top: 25vh; */
+    }
+
+    .blur {
+        position: absolute;
+        opacity: 0.4;
+    }
+
+    .rightCol {
+        position: absolute;
+        width: 100vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.01),
+                rgba(0, 0, 0, 0.4)),
+            url(./assets/about/Me2.jpg);
+    }
+
     .landing {
         display: grid;
         height: 100vh;
@@ -652,9 +906,27 @@ header nav ul li a:active {
         font-size: 10px;
         font-weight: 500;
     }
+
+    .landingBtns {
+        margin-top: 12vh;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .landing-title h1 {
+        font-size: 45px;
+    }
 }
 
 @media screen and (max-width: 300px) {
+
+    .landing-title h1 {
+        font-size: 30px;
+    }
+
+    .landingBtns a {
+        font-size: 15px;
+    }
 
     .skill-intro {
         min-width: 270px;
@@ -664,4 +936,21 @@ header nav ul li a:active {
         min-width: 270px;
     }
 
+}
+
+@media screen and (max-height: 700px) {
+
+    .about-text {
+        letter-spacing: 1px;
+        line-height: 1.3;
+        width: 60vw;
+        margin-top: 2vh;
+        font-weight: 400;
+    }
+
+    .about-title {
+        margin-top: 8vh;
+        font-weight: 500;
+        font-size: 35px;
+    }
 }

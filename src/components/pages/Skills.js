@@ -105,18 +105,18 @@ const skills = () => {
     return (
         <div className="skillSection">
             <div className="skill-intro">
-                <h4>my skills...</h4>
-                <p>
+                <h1>my skills...</h1>
+                <h5>
                     Thanks to my experience in UofT's intensive web development course,
                     I'm able to quickly pivot to using new technologies and adopt existing codebases on the fly.
                     <br />
                     <br />
                     click to
                     <a className="downloadresume" href={workResume} download> download </a> 
-                    or just
+                    or
                     <a className="viewresume" href='https://resume.creddle.io/resume/9gs3poo1p3v' target='_blank' download> view </a>
                     resume
-                </p>
+                </h5>
             </div>
             <div className="skill-icons">
                 {skillArray.map(x => {
