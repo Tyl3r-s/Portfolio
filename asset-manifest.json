@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/React-SPA-Portfolio/static/css/main.1bf1ec53.css",
-    "main.js": "/React-SPA-Portfolio/static/js/main.6e60df0a.js",
+    "main.js": "/React-SPA-Portfolio/static/js/main.73bfed66.js",
     "static/media/5.png": "/React-SPA-Portfolio/static/media/5.9170f1400ff1edcc6de2.png",
+    "static/media/tesla.png": "/React-SPA-Portfolio/static/media/tesla.2d934cb1da9cd53a5ab5.png",
     "static/media/jake-hills-mI02K_LxlfU-unsplash.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash.960e5dbc9b12203a4649.jpg",
     "static/media/jake-hills-mI02K_LxlfU-unsplash2.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash2.6cc0520b042447526c3f.jpg",
     "static/media/jake-hills-mI02K_LxlfU-unsplash3.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash3.01f224b31b23413a9c41.jpg",
@@ -12,12 +13,13 @@
     "static/media/6.png": "/React-SPA-Portfolio/static/media/6.7a469ef5923a494cd5f6.png",
     "static/media/Me.jpg": "/React-SPA-Portfolio/static/media/Me.abb6406c0cebc9bf433f.jpg",
     "static/media/Me2.jpg": "/React-SPA-Portfolio/static/media/Me2.1d08715ab68f5c6a9728.jpg",
+    "static/media/bugtracker.png": "/React-SPA-Portfolio/static/media/bugtracker.f77c227797968537a3ef.png",
     "index.html": "/React-SPA-Portfolio/index.html",
     "main.1bf1ec53.css.map": "/React-SPA-Portfolio/static/css/main.1bf1ec53.css.map",
-    "main.6e60df0a.js.map": "/React-SPA-Portfolio/static/js/main.6e60df0a.js.map"
+    "main.73bfed66.js.map": "/React-SPA-Portfolio/static/js/main.73bfed66.js.map"
   },
   "entrypoints": [
     "static/css/main.1bf1ec53.css",
-    "static/js/main.6e60df0a.js"
+    "static/js/main.73bfed66.js"
   ]
 }
