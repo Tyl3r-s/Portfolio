@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-SPA-Portfolio/static/css/main.816a35d5.css",
-    "main.js": "/React-SPA-Portfolio/static/js/main.c92daa2c.js",
+    "main.js": "/React-SPA-Portfolio/static/js/main.5874f867.js",
     "static/media/5.png": "/React-SPA-Portfolio/static/media/5.9170f1400ff1edcc6de2.png",
     "static/media/tesla.png": "/React-SPA-Portfolio/static/media/tesla.2d934cb1da9cd53a5ab5.png",
     "static/media/jake-hills-mI02K_LxlfU-unsplash.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash.960e5dbc9b12203a4649.jpg",
@@ -16,10 +16,10 @@
     "static/media/bugtracker.png": "/React-SPA-Portfolio/static/media/bugtracker.f77c227797968537a3ef.png",
     "index.html": "/React-SPA-Portfolio/index.html",
     "main.816a35d5.css.map": "/React-SPA-Portfolio/static/css/main.816a35d5.css.map",
-    "main.c92daa2c.js.map": "/React-SPA-Portfolio/static/js/main.c92daa2c.js.map"
+    "main.5874f867.js.map": "/React-SPA-Portfolio/static/js/main.5874f867.js.map"
   },
   "entrypoints": [
     "static/css/main.816a35d5.css",
-    "static/js/main.c92daa2c.js"
+    "static/js/main.5874f867.js"
   ]
 }
