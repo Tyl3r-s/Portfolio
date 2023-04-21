@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-SPA-Portfolio/static/css/main.3ce85bf8.css",
-    "main.js": "/React-SPA-Portfolio/static/js/main.c94de21b.js",
+    "main.css": "/React-SPA-Portfolio/static/css/main.8bfe0b29.css",
+    "main.js": "/React-SPA-Portfolio/static/js/main.1dcc29d6.js",
     "static/media/5.png": "/React-SPA-Portfolio/static/media/5.9170f1400ff1edcc6de2.png",
     "static/media/mebg.jpg": "/React-SPA-Portfolio/static/media/mebg.11769c807b687bb7be22.jpg",
     "static/media/tesla.png": "/React-SPA-Portfolio/static/media/tesla.2d934cb1da9cd53a5ab5.png",
@@ -16,11 +16,11 @@
     "static/media/Me2.jpg": "/React-SPA-Portfolio/static/media/Me2.b0bf1042f49f70d741b2.jpg",
     "static/media/bugtracker.png": "/React-SPA-Portfolio/static/media/bugtracker.273cede27e5656e4acb2.png",
     "index.html": "/React-SPA-Portfolio/index.html",
-    "main.3ce85bf8.css.map": "/React-SPA-Portfolio/static/css/main.3ce85bf8.css.map",
-    "main.c94de21b.js.map": "/React-SPA-Portfolio/static/js/main.c94de21b.js.map"
+    "main.8bfe0b29.css.map": "/React-SPA-Portfolio/static/css/main.8bfe0b29.css.map",
+    "main.1dcc29d6.js.map": "/React-SPA-Portfolio/static/js/main.1dcc29d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ce85bf8.css",
-    "static/js/main.c94de21b.js"
+    "static/css/main.8bfe0b29.css",
+    "static/js/main.1dcc29d6.js"
   ]
 }
