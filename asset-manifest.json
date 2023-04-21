@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/React-SPA-Portfolio/static/css/main.816a35d5.css",
-    "main.js": "/React-SPA-Portfolio/static/js/main.5874f867.js",
+    "main.css": "/React-SPA-Portfolio/static/css/main.f8192d67.css",
+    "main.js": "/React-SPA-Portfolio/static/js/main.4d570c24.js",
     "static/media/5.png": "/React-SPA-Portfolio/static/media/5.9170f1400ff1edcc6de2.png",
+    "static/media/mebg.jpg": "/React-SPA-Portfolio/static/media/mebg.11769c807b687bb7be22.jpg",
     "static/media/tesla.png": "/React-SPA-Portfolio/static/media/tesla.2d934cb1da9cd53a5ab5.png",
+    "static/media/2.png": "/React-SPA-Portfolio/static/media/2.6c6ca58dbaad9c072f5b.png",
     "static/media/jake-hills-mI02K_LxlfU-unsplash.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash.960e5dbc9b12203a4649.jpg",
     "static/media/jake-hills-mI02K_LxlfU-unsplash2.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash2.6cc0520b042447526c3f.jpg",
     "static/media/jake-hills-mI02K_LxlfU-unsplash3.jpg": "/React-SPA-Portfolio/static/media/jake-hills-mI02K_LxlfU-unsplash3.01f224b31b23413a9c41.jpg",
-    "static/media/tylerscottresume.pdf": "/React-SPA-Portfolio/static/media/tylerscottresume.8364193e21308da86b3f.pdf",
     "static/media/1.png": "/React-SPA-Portfolio/static/media/1.7a4c5c34372af3bec963.png",
-    "static/media/2.png": "/React-SPA-Portfolio/static/media/2.55444ace3035f61eb83d.png",
-    "static/media/6.png": "/React-SPA-Portfolio/static/media/6.7a469ef5923a494cd5f6.png",
+    "static/media/tylerscottresume.pdf": "/React-SPA-Portfolio/static/media/tylerscottresume.f75b0af16a5ebb6294e0.pdf",
+    "static/media/6.png": "/React-SPA-Portfolio/static/media/6.0461b0c8c481d39c58a5.png",
     "static/media/Me.jpg": "/React-SPA-Portfolio/static/media/Me.b0bf1042f49f70d741b2.jpg",
     "static/media/Me2.jpg": "/React-SPA-Portfolio/static/media/Me2.b0bf1042f49f70d741b2.jpg",
-    "static/media/bugtracker.png": "/React-SPA-Portfolio/static/media/bugtracker.f77c227797968537a3ef.png",
+    "static/media/bugtracker.png": "/React-SPA-Portfolio/static/media/bugtracker.273cede27e5656e4acb2.png",
     "index.html": "/React-SPA-Portfolio/index.html",
-    "main.816a35d5.css.map": "/React-SPA-Portfolio/static/css/main.816a35d5.css.map",
-    "main.5874f867.js.map": "/React-SPA-Portfolio/static/js/main.5874f867.js.map"
+    "main.f8192d67.css.map": "/React-SPA-Portfolio/static/css/main.f8192d67.css.map",
+    "main.4d570c24.js.map": "/React-SPA-Portfolio/static/js/main.4d570c24.js.map"
   },
   "entrypoints": [
-    "static/css/main.816a35d5.css",
-    "static/js/main.5874f867.js"
+    "static/css/main.f8192d67.css",
+    "static/js/main.4d570c24.js"
   ]
 }
