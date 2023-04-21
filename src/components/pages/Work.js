@@ -4,8 +4,23 @@ import img5 from '../../assets/projects/5.png';
 import img2 from '../../assets/projects/2.png';
 import img1 from '../../assets/projects/1.png';
 import img6 from '../../assets/projects/6.png';
+import img7 from '../../assets/projects/tesla.png';
+import img8 from '../../assets/projects/bugtracker.png';
 
 const projectArr = [
+  {
+    "img": img8,
+    "title": "bug-tracker",
+    "description": "coming soon"
+  },
+  {
+    "img": img7,
+    "title": "tesla clone",
+    "description": "A responsive recreation of the Tesla website. Includes features: Side menu drop-in, background blur, and screen snapping.",
+    "website": "https://tyl3r-s.github.io/tesla-clone/",
+    "repo": "https://github.com/Tyl3r-s/tesla-clone",
+    "details": "HTML, CSS, JavaScript",
+  },
   {
     "img": img5,
     "title": "InnerPattern",
@@ -24,14 +39,6 @@ const projectArr = [
     "details": "MySQL, JavaScript, Sequelize, Express, Node, Handlebars, express-session, HTML, CSS"
   },
   {
-    "img": img1,
-    "title": "Humble",
-    "description": "A full-stack MySQL application where users can create acounts, post pictures, and comment on posts.",
-    "website": "https://glacial-wildwood-20620.herokuapp.com/",
-    "repo": "https://github.com/tarequem/humble",
-    "details": "MySQL, JavaScript, Sequelize, Express, Node, Handlebars, express-session, HTML, CSS"
-  },
-  {
     "img": img2,
     "title": "Weather Dashboard",
     "description": "A javascript application which utilizes the OpenWeatherApp API to allow users to search for cities around the world, and view a 5 day forecast",
@@ -44,13 +51,6 @@ const projectArr = [
 export default function Work() {
   return (
     <section className="projects" id="projects">
-      <div className="workIntro">
-        <h1 className="workPageTitle">Some of my favourite projects...</h1>
-        <h5 className="workPageDesc">I'm always working on something to learn new skills and polish older ones. 
-        Here I've showcased some of my favourite solo and group projects I've worked on. 
-        Be sure to check out my repo and live sites!
-        </h5>
-      </div>
       <div className="workContainer">
       {projectArr.map(x => {
         return (

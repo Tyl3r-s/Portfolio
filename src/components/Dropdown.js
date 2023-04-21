@@ -88,10 +88,11 @@ function Dropdown({ currentPage, handlePageChange }) {
                                 <BiMessageAltDetail /> Contact
                             </a>
                         </li>
-                        <h5>Resume</h5>
-                        <a className="dropdownView" href='https://resume.creddle.io/resume/9gs3poo1p3v' target='_blank' download> view </a>
-                        <br />
-                        <a className="dropdownDownload" href={workResume} download> download </a>
+                        <a className="dropdownDownload" href={workResume} download> Resume </a>
+                        <br/>
+                        <a className="dropdownView" href='https://www.linkedin.com/in/tylerscottdev/' target='_blank' download> LinkedIn </a>
+                        <br/>
+                        <a className="dropdownView" href='https://github.com/Tyl3r-s' target='_blank' download> GitHub </a>
                     </ul>
                 </div>
             </div>

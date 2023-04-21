@@ -94,30 +94,12 @@ const skillArray = [
     {
         "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
         "title": "redux"
-    },
-    {
-        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
-        "title": "mongoose"
     }
 ]
 
 const skills = () => {
     return (
         <div className="skillSection">
-            <div className="skill-intro">
-                <h1>my skills...</h1>
-                <h5>
-                    Thanks to my experience in UofT's intensive web development course,
-                    I'm able to quickly pivot to using new technologies and adopt existing codebases on the fly.
-                    <br />
-                    <br />
-                    click to
-                    <a className="downloadresume" href={workResume} download> download </a> 
-                    or
-                    <a className="viewresume" href='https://resume.creddle.io/resume/9gs3poo1p3v' target='_blank' download> view </a>
-                    resume
-                </h5>
-            </div>
             <div className="skill-icons">
                 {skillArray.map(x => {
                     return (

@@ -397,11 +397,11 @@ header nav ul li a:active {
 
 .me {
     border-radius: 50%;
-    height: 60%;
+    height: 22vw;
     width: auto;
     position: absolute;
     left: -70px;
-    margin-top: 22%;
+    margin-top: 25vh;
 }
 
 /* my work/projects section */
@@ -416,6 +416,7 @@ header nav ul li a:active {
 }
 
 .workContainer {
+    margin-top: 5vh;
     width: 70vw;
     display: flex;
     flex-wrap: wrap;
@@ -512,6 +513,18 @@ header nav ul li a:active {
 }
 
 /* contact me */
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 .contactButton {
     margin-bottom: 5vh;
@@ -524,66 +537,15 @@ header nav ul li a:active {
 }
 
 .container h3 {
-    margin-top: 15vh;
+    margin-top: 10vh;
     font-weight: 300;
-    font-size: 25px;
+    font-size: 1.1em;
 }
 
 .form-control {
-    border-radius: 0px;
-    margin: 5vh;
-    width: 80vw;
-}
-
-.form-group {
-    border-radius: 0px;
-}
-
-.contact-form {
-    height: 88vh;
-    width: 40vw;
-    border-radius: 0px;
-}
-
-.contact-form form {
+    margin-bottom: 3vh;
     width: 50vw;
-    border-radius: 0px;
-}
-
-.contactBtn {
-    width: 100%;
-    border-radius: 0px;
-}
-
-
-.contact-section {
-    display: grid;
-    grid-gap: 2vh;
-    text-align: center;
-    list-style: none;
-    color: var(--primary-color);
-    font-size: 20px;
-}
-
-.contact-section a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-size: 2vh;
-    margin-top: 2px;
-}
-
-.contact-section p {
-    font-size: 10px;
-}
-
-.contact-section a:hover {
-    color: white;
-    transition: 0.2s;
-}
-
-.contact-section a:active {
-    opacity: 0.8;
-    transition: 0s;
+    min-width: 300px;
 }
 
 .footerClass {
@@ -598,97 +560,45 @@ header nav ul li a:active {
     grid-gap: 1vh;
 }
 
+.contact-section a {
+    margin: 1vw;
+    color: var(--primary-color);
+}
+
 .copyright {
     color: var(--primary-color);
     font-size: 10px;
 }
 
-/* .footerClass p {
-    margin-top: 1vh;
-} */
-
-/* resume and skill stuff */
-
-.resumeContainer {
-    right: 0px;
-    left: auto;
-}
-
-.resume {
-    width: 867px;
-    height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.resumeSection {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-}
-
-.resumeSection a {
-    width: 867px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: right;
-}
+/* skill stuff */
 
 .skillSection {
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill {
-    margin: 2vw;
-    width: 5vw;
-    height: 5vw;
-    min-width: 50px;
+    margin: 4vh;
+    width: 10vh;
 }
 
 .skill h5 {
-    font-weight: 300;
+    font-weight: 500;
     text-align: center;
-}
-
-.skill-intro {
-    width: 40vw;
-    min-width: 350px;
-    align-self: center;
-    margin: 1vw;
-    margin-left: 3vw;
-}
-
-.skill-intro h1 {
-    font-weight: 300;
-    margin-bottom: 2vw;
-}
-
-.skill-intro h5 {
-    font-weight: 300;
-    letter-spacing: 2px;
-    line-height: 1.9;
-    width: 90%;
-}
-
-.downloadresume {
-    color: #78b7e0;
-    letter-spacing: 5px;
-}
-
-.viewresume {
-    color: #03c1b4;
-    letter-spacing: 5px;
 }
 
 .skill-icons {
     height: 100vh;
-    width: 55vw;
+    width: 75vw;
     min-width: 350px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -825,24 +735,33 @@ header nav ul li a:active {
         margin-right: 10px;
     }
 
+    .about-title {
+        display: none;
+        margin: 0;
+        font-weight: 400;
+    }
+
     .abtTitle {
+        display: none;
         z-index: 998;
         color: white;
+        margin: 0;
+        height: 15vh;
     }
 
     .abtText {
-        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         z-index: 998;
         color: white;
-        width: 90vw;
+        width: 100vw;
+        height: auto;
     }
 
-    .about-text {
-        margin-left: 6vw;
-        font-weight: 300;
+    .abtText h5 {
         width: 90%;
-        letter-spacing: 2px;
-        line-height: 1.7;
+        height: 50vh;
     }
 
     .leftCol {
@@ -851,18 +770,18 @@ header nav ul li a:active {
 
     .me {
         display: none;
-        /* width: 70vw;
+        width: 40vw;
         height: auto;
-        margin-left: 0px;
         position: absolute;
-        left: -80px;
+        left: 2vw;
         margin-top: 0%;
-        top: 25vh; */
+        top: 2vh;
     }
 
     .blur {
         position: absolute;
         opacity: 0.4;
+        background-color: rgba(0, 0, 0, 0.57);
     }
 
     .rightCol {
@@ -870,7 +789,7 @@ header nav ul li a:active {
         width: 100vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.01),
                 rgba(0, 0, 0, 0.4)),
-            url(./assets/about/Me2.jpg);
+            url(./assets/about/mebg.jpg);
     }
 
     .landing {
@@ -885,6 +804,7 @@ header nav ul li a:active {
 
     .about-me-text p {
         height: 100%;
+        width: 100vw;
     }
 
     html {
@@ -900,6 +820,11 @@ header nav ul li a:active {
 
     .card {
         width: 80vw;
+    }
+
+    .skill {
+        margin: 6vh 2vh 2vh 2vh;
+        width: 10vh;
     }
 
     .skill h5 {
@@ -938,6 +863,16 @@ header nav ul li a:active {
 
 }
 
+@media screen and (max-height: 900px) {
+    .about-text {
+        letter-spacing: 1.5px;
+        line-height: 1.6;
+        width: 60vw;
+        margin-top: 2vh;
+        font-weight: 400;
+    }
+}
+
 @media screen and (max-height: 700px) {
 
     .about-text {
@@ -952,5 +887,17 @@ header nav ul li a:active {
         margin-top: 8vh;
         font-weight: 500;
         font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .form-control {
+        min-width: 275px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .skill {
+        width: 14vw;
     }
 }

@@ -12,10 +12,7 @@ export default function About() {
         </div>
         <div className="abtText">
           <h5 className="about-text">
-            I'm Tyler, a full stack developer near Toronto. I love learning, and imagining creative solutions.
-            I typically focus on the MERN stack, but am still exploring and ready to pivot to other technologies and frameworks as needed,
-            or that catch my interest! if you're looking for a developer to add to your team, I'd love to hear from you!
-
+          I'm Tyler, a Full Stack Web Developer who specializes in MERN stack and Microsoft SQL. With certification in Full Stack Web Development from the University of Toronto, I have a deep understanding for version control and agile methodologies, as well as many other industry standard techniques. My passion for enriching people's lives using code drives me to continually optimize my skills and stay up-to-date with the latest industry trends. Let's collaborate to make a significant impact together!
           </h5>
         </div>
       </div>
