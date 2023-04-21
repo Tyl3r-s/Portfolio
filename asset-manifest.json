@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-SPA-Portfolio/static/css/main.3ce85bf8.css",
-    "main.js": "/React-SPA-Portfolio/static/js/main.480536f0.js",
+    "main.js": "/React-SPA-Portfolio/static/js/main.c94de21b.js",
     "static/media/5.png": "/React-SPA-Portfolio/static/media/5.9170f1400ff1edcc6de2.png",
     "static/media/mebg.jpg": "/React-SPA-Portfolio/static/media/mebg.11769c807b687bb7be22.jpg",
     "static/media/tesla.png": "/React-SPA-Portfolio/static/media/tesla.2d934cb1da9cd53a5ab5.png",
@@ -17,10 +17,10 @@
     "static/media/bugtracker.png": "/React-SPA-Portfolio/static/media/bugtracker.273cede27e5656e4acb2.png",
     "index.html": "/React-SPA-Portfolio/index.html",
     "main.3ce85bf8.css.map": "/React-SPA-Portfolio/static/css/main.3ce85bf8.css.map",
-    "main.480536f0.js.map": "/React-SPA-Portfolio/static/js/main.480536f0.js.map"
+    "main.c94de21b.js.map": "/React-SPA-Portfolio/static/js/main.c94de21b.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce85bf8.css",
-    "static/js/main.480536f0.js"
+    "static/js/main.c94de21b.js"
   ]
 }
