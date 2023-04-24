@@ -10,8 +10,8 @@ export function Card(props) {
                 <p className="projectDetails">{props.details}</p>
                 <p className="card-text">{props.desc}</p>
                 <section className="links">
-                    <a href={props.website} className="cardBtn">live site</a>
-                    <a href={props.repo} className="cardBtn">repo</a>
+                    <a href={props.website} target="_blank" className="cardBtn">live site</a>
+                    <a href={props.repo} target="_blank" className="cardBtn">repo</a>
                 </section>
             </div>
         </div>

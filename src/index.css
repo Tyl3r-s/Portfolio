@@ -362,7 +362,7 @@ header nav ul li a:active {
     margin-bottom: 20vh;
     margin-left: 6vw;
     font-weight: 300;
-    width: 70%;
+    width: 50vw;
     letter-spacing: 2px;
     line-height: 1.9;
 }
@@ -417,7 +417,7 @@ header nav ul li a:active {
 
 .workContainer {
     margin-top: 5vh;
-    width: 70vw;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -442,8 +442,8 @@ header nav ul li a:active {
 
 .card {
     margin: 5%;
-    height: 90vh;
-    width: 40%;
+    height: 65vh;
+    width: 20vw;
     border-radius: 0px;
     display: flex;
     justify-content: center;
@@ -635,6 +635,11 @@ header nav ul li a:active {
         width: 40vw;
         height: auto;
         margin-top: 25vh;
+    }
+
+    .about-text {
+        width: 45vw;
+        height: 40vh;
     }
 
     .rightCol {
@@ -867,7 +872,7 @@ header nav ul li a:active {
     .about-text {
         letter-spacing: 1.5px;
         line-height: 1.6;
-        width: 60vw;
+        width: 46vw;
         margin-top: 2vh;
         font-weight: 400;
     }
@@ -893,6 +898,14 @@ header nav ul li a:active {
 @media screen and (max-width: 300px) {
     .form-control {
         min-width: 275px;
+    }
+
+    .about-text {
+        letter-spacing: .8px;
+        line-height: 1.02;
+        width: 60vw;
+        margin-top: 2vh;
+        font-weight: 400;
     }
 }
 
