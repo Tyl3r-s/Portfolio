@@ -11,11 +11,11 @@ function App() {
     return (
         <Router>
             <Switch>
-                <Route exact path="/" component={Home} />
-                <Route exact path="/About" component={About} />
-                <Route exact path="/Work" component={Work} />
-                <Route exact path="/Skills" component={Skills} />
-                <Route exact path="/Contact" component={Contact} />
+                <Route exact path="/ts-portfolio" component={Home} />
+                <Route exact path="/ts-portfolio/About" component={About} />
+                <Route exact path="/ts-portfolio/Work" component={Work} />
+                <Route exact path="/ts-portfolio/Skills" component={Skills} />
+                <Route exact path="/ts-portfolio/Contact" component={Contact} />
             </Switch>
         </Router>
     );
