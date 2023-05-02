@@ -6,6 +6,7 @@ import Contact from './components/pages/Contact';
 import Skills from './components/pages/Skills';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+
 function App() {
     return (
         <Router>
