@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Home({ currentPage, handlePageChange }) {
+function Home() {
   return (
     <section className="landing">
 
@@ -12,47 +12,27 @@ export default function Home({ currentPage, handlePageChange }) {
           </h1>
           <p className="landing-subtitle">.designer &<span>&</span> <span>coder()</span></p>
           <div className="landingBtns">
-          <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-        >
-          About
-        </a>
-        <a
-          href="#about"
-          onClick={() => handlePageChange('Work')}
-
-          className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
-        >
-          Projects
-        </a>
-        <a
-          href="#about"
-          onClick={() => handlePageChange('Skills')}
-
-          className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
-        >
-          Skills
-        </a>
-        <a
-          href="#about"
-          onClick={() => handlePageChange('Contact')}
-
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-        >
-          Contact
-        </a>
-        {/* <a
-          href="#about"
-          onClick={() => handlePageChange('Resume')}
-
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-        >
-          Resume
-        </a> */}
-        </div>
+            <a
+              href="/About"
+            >
+              About
+            </a>
+            <a
+              href="/Work"
+            >
+              Projects
+            </a>
+            <a
+              href="/Skills"
+            >
+              Skills
+            </a>
+            <a
+              href="/Contact"
+            >
+              Contact
+            </a>
+          </div>
         </div>
 
       </div>
@@ -60,3 +40,5 @@ export default function Home({ currentPage, handlePageChange }) {
     </section>
   );
 }
+
+export default Home;

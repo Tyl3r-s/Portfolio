@@ -1,6 +1,7 @@
 import React from 'react';
 import { Skill } from '../Skill'
-import workResume from '../../assets/resume/tylerscottresume.pdf'
+import Dropdown from '../Dropdown';
+import Footer from '../Footer';
 
 const skillArray = [
     {
@@ -99,14 +100,18 @@ const skillArray = [
 
 const skills = () => {
     return (
-        <div className="skillSection">
-            <div className="skill-icons">
-                {skillArray.map(x => {
-                    return (
-                        <Skill img={x.img} title={x.title}></Skill>
-                    )
-                })}
+        <div>
+            <Dropdown />
+            <div className="skillSection">
+                <div className="skill-icons">
+                    {skillArray.map(x => {
+                        return (
+                            <Skill img={x.img} title={x.title}></Skill>
+                        )
+                    })}
+                </div>
             </div>
+            <Footer />
         </div>
     )
 }

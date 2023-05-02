@@ -6,12 +6,17 @@ import img1 from '../../assets/projects/1.png';
 import img6 from '../../assets/projects/6.png';
 import img7 from '../../assets/projects/tesla.png';
 import img8 from '../../assets/projects/bugtracker.png';
+import comingsoon from '../../assets/projects/ComingSoon.jpg';
+import Dropdown from '../Dropdown';
+import Footer from '../Footer';
 
 const projectArr = [
   {
-    "img": img8,
+    "img": comingsoon,
     "title": "bug-tracker",
-    "description": "coming soon"
+    "description": "track and coordinate issues throughout development",
+    "repo": "https://github.com/Tyl3r-s/Bug-Tracker",
+    "details": "React, JavaScript, Express, Node, MongoDB, Mongoose, Apollo, Bcrypt, JWT, React-Router, HTML, CSS"
   },
   {
     "img": img7,
@@ -50,21 +55,25 @@ const projectArr = [
 
 export default function Work() {
   return (
-    <section className="projects" id="projects">
-      <div className="workContainer">
-      {projectArr.map(x => {
-        return (
-          <Card 
-          title={x.title} 
-          img={x.img} 
-          desc={x.description} 
-          website={x.website} 
-          repo={x.repo} 
-          details={x.details} 
-          wireframe={x.wireframe}/>
-        )
-      })}
-      </div>
-    </section>
+    <div>
+      <Dropdown />
+      <section className="projects" id="projects">
+        <div className="workContainer">
+          {projectArr.map(x => {
+            return (
+              <Card
+                title={x.title}
+                img={x.img}
+                desc={x.description}
+                website={x.website}
+                repo={x.repo}
+                details={x.details}
+                wireframe={x.wireframe} />
+            )
+          })}
+        </div>
+      </section>
+      <Footer />
+    </div>
   );
 }

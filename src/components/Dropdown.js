@@ -1,4 +1,4 @@
-import react, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { FaHome } from 'react-icons/fa';
 import { RiContactsLine } from 'react-icons/ri';
 import { GrProjects } from 'react-icons/gr';
@@ -40,7 +40,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                     <ul>
                         <li>
                             <a
-                                href="#home"
+                                href="/"
                                 onClick={() => handlePageChange('Home')}
 
                                 className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
@@ -50,7 +50,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                         </li>
                         <li>
                             <a
-                                href="#about"
+                                href="/About"
                                 onClick={() => handlePageChange('About')}
 
                                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -60,7 +60,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                         </li>
                         <li>
                             <a
-                                href="#Work"
+                                href="/Work"
                                 onClick={() => handlePageChange('Work')}
 
                                 className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
@@ -70,7 +70,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                         </li>
                         <li>
                             <a
-                                href="#resume"
+                                href="/Skills"
 
                                 onClick={() => handlePageChange('Skills')}
                                 className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
@@ -80,7 +80,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                         </li>
                         <li className="">
                             <a
-                                href="#contact"
+                                href="/Contact"
 
                                 onClick={() => handlePageChange('Contact')}
                                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}

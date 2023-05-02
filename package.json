@@ -1,6 +1,6 @@
 {
   "name": "hostinger-react",
-  "homepage": "https://tyl3r-s.github.io/React-SPA-Portfolio/",
+  "homepage": "https://tyl3r-s.github.io/",
   "version": "1.0.0",
   "description": "my react application",
   "dependencies": {
@@ -11,12 +11,13 @@
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.2.2",
-    "react": "^17.0.2",
+    "react": "^16.13.1",
     "react-bootstrap": "^2.5.0",
-    "react-dom": "^17.0.2",
+    "react-dom": "^16.13.1",
     "react-icons": "^4.4.0",
+    "react-router": "^6.11.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "3.4.1",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
