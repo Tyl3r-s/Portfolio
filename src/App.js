@@ -9,7 +9,7 @@ import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
     return (
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router>
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/About" component={About} />
