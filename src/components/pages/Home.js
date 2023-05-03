@@ -13,7 +13,7 @@ function Home() {
           <p className="landing-subtitle">.designer &<span>&</span> <span>coder()</span></p>
           <div className="landingBtns">
             <a
-              href="/#/About"
+              href="/ts-portfolio/#/About"
             >
               About
             </a>
