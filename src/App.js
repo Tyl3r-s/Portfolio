@@ -4,7 +4,7 @@ import About from './components/pages/About';
 import Work from './components/pages/Work';
 import Contact from './components/pages/Contact';
 import Skills from './components/pages/Skills';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 function App() {
