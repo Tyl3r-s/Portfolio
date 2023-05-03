@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a441b2d5c1c78f58b30eb32cfb4dbcc1",
+    "revision": "888a0be9b59fc1826ef7b0067226dbbc",
     "url": "/tylerscottdev.com/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tylerscottdev.com/static/css/2.f0e33c08.chunk.css"
   },
   {
-    "revision": "e73b1ab97e035ee7dd63",
+    "revision": "b7d531bd2f269c0401e6",
     "url": "/tylerscottdev.com/static/css/main.025b1c85.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tylerscottdev.com/static/js/2.2c644d6a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e73b1ab97e035ee7dd63",
-    "url": "/tylerscottdev.com/static/js/main.9216b83f.chunk.js"
+    "revision": "b7d531bd2f269c0401e6",
+    "url": "/tylerscottdev.com/static/js/main.6b715de9.chunk.js"
   },
   {
     "revision": "400f1294fd37a79d48f8",
