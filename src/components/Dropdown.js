@@ -40,7 +40,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                     <ul>
                         <li>
                             <a
-                                href="/"
+                                href="/ts-portfolio/#/"
                                 onClick={() => handlePageChange('Home')}
 
                                 className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
@@ -50,7 +50,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                         </li>
                         <li>
                             <a
-                                href="/About"
+                                href="/ts-portfolio/#/About"
                                 onClick={() => handlePageChange('About')}
 
                                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -60,7 +60,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                         </li>
                         <li>
                             <a
-                                href="/Work"
+                                href="/ts-portfolio/#/Work"
                                 onClick={() => handlePageChange('Work')}
 
                                 className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
@@ -70,7 +70,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                         </li>
                         <li>
                             <a
-                                href="/Skills"
+                                href="/ts-portfolio/#/Skills"
 
                                 onClick={() => handlePageChange('Skills')}
                                 className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
@@ -80,7 +80,7 @@ function Dropdown({ currentPage, handlePageChange }) {
                         </li>
                         <li className="">
                             <a
-                                href="/Contact"
+                                href="/ts-portfolio/#/Contact"
 
                                 onClick={() => handlePageChange('Contact')}
                                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
